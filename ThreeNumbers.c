@@ -2,6 +2,7 @@
 
 int GetMax(int, int, int);
 
+
 int main(void)
 {
 	int x, y, z;
@@ -9,7 +10,7 @@ int main(void)
 	scanf("%d %d %d", &x, &y, &z);
 
 
-	printf("The biggest number is %d\n", GetMax(x, y, z));
+	printf("The biggest number os %d\n", GetMax(x, y, z));
 
 	return 0;
 }
