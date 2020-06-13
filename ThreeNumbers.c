@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int GetMax(int, int, int);
+int GetMin(int, int, int);
 
 
 int main(void)
@@ -10,7 +11,8 @@ int main(void)
 	scanf("%d %d %d", &x, &y, &z);
 
 
-	printf("The biggest number os %d\n", GetMax(x, y, z));
+	printf("The biggest number is %d\n", GetMax(x, y, z));
+
 
 	return 0;
 }
@@ -24,3 +26,4 @@ int GetMax(int a, int b, int c)
 
 	return temp < c ? c : temp;
 }
+
