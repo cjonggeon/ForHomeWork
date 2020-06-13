@@ -10,7 +10,7 @@ int main(void)
 	scanf("%d %d %d", &x, &y, &z);
 
 
-	printf("The biggest number is %d\n", GetMax(x, y, z));
+	printf("The biggest number os %d\n", GetMax(x, y, z));
 	printf("The smallest number is %d\n", GetMin(x, y, z));
 
 	return 0;
